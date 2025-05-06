@@ -1,0 +1,27 @@
+/* frontend/src/components/Footer.css */
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Напівпрозорий чорний фон */
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center; /* Центрує кнопки по горизонталі */
+    gap: 20px; /* Відстань між кнопками */
+  }
+  
+  .footer-button {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .footer-button:hover {
+    background-color: #777;
+  }
