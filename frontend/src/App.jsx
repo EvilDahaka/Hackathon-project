@@ -1,7 +1,7 @@
 import React from 'react';
-import Character from './components/Character';
-import MessageContainer from './components/MessageContainer';
-import Footer from './components/Footer'; // Імпорт компонента Footer
+import Character from './components/Character.jsx';
+import MessageContainer from './components/MessageContainer.jsx';
+import Footer from './components/Footer.jsx';
 import './App.css';
 
 function App() {
@@ -9,9 +9,9 @@ function App() {
     <div className="app">
       <Character />
       <MessageContainer />
-      <Footer /> {/* Додаємо компонент Footer */}
+      <Footer /> 
     </div>
-  );
+  )
 }
 
 export default App;
